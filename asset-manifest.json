@@ -1,16 +1,33 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.073c9b0a.css",
-    "main.js": "/website/static/js/main.8edeb19a.js",
+    "main.css": "/website/static/css/main.4bead3bb.css",
+    "main.js": "/website/static/js/main.8884cbfd.js",
     "static/js/787.ed3a2601.chunk.js": "/website/static/js/787.ed3a2601.chunk.js",
-    "static/media/logo.svg": "/website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/background.jpg": "/website/static/media/background.4c3e87f4b2643595bc1c.jpg",
+    "static/media/BarlowSemiCondensed-BoldItalic.eot": "/website/static/media/BarlowSemiCondensed-BoldItalic.478a753177c06e712c5a.eot",
+    "static/media/BarlowSemiCondensed-SemiBoldItalic.eot": "/website/static/media/BarlowSemiCondensed-SemiBoldItalic.318c440184517f04107d.eot",
+    "static/media/BarlowSemiCondensed-BoldItalic.ttf": "/website/static/media/BarlowSemiCondensed-BoldItalic.5f3e3b27f2dfca2ad279.ttf",
+    "static/media/BarlowSemiCondensed-SemiBoldItalic.ttf": "/website/static/media/BarlowSemiCondensed-SemiBoldItalic.93640c6f79f6bd6ce3e2.ttf",
+    "static/media/GreatVibes-Regular.eot": "/website/static/media/GreatVibes-Regular.b104b5375e1745c00212.eot",
+    "static/media/GreatVibes-Regular.ttf": "/website/static/media/GreatVibes-Regular.57097753dd55dcf2137b.ttf",
+    "static/media/BarlowSemiCondensed-BoldItalic.woff": "/website/static/media/BarlowSemiCondensed-BoldItalic.a55bff3117327ae418ac.woff",
+    "static/media/BarlowSemiCondensed-SemiBoldItalic.woff": "/website/static/media/BarlowSemiCondensed-SemiBoldItalic.1946bc1032bcd34977b4.woff",
+    "static/media/Satisfy-Regular.eot": "/website/static/media/Satisfy-Regular.8ee9f5f13c70dc6a1e77.eot",
+    "static/media/Satisfy-Regular.ttf": "/website/static/media/Satisfy-Regular.ee79ce64c12d1a222964.ttf",
+    "static/media/BarlowSemiCondensed-BoldItalic.woff2": "/website/static/media/BarlowSemiCondensed-BoldItalic.46c37da44fb5f663d822.woff2",
+    "static/media/BarlowSemiCondensed-SemiBoldItalic.woff2": "/website/static/media/BarlowSemiCondensed-SemiBoldItalic.9ae2fdc67b55e8d25761.woff2",
+    "static/media/GreatVibes-Regular.woff": "/website/static/media/GreatVibes-Regular.830aac1a98ae6b638590.woff",
+    "static/media/GreatVibes-Regular.woff2": "/website/static/media/GreatVibes-Regular.c71c8314428cf12bc313.woff2",
+    "static/media/Satisfy-Regular.woff": "/website/static/media/Satisfy-Regular.15553efb0930e0dbab89.woff",
+    "static/media/Satisfy-Regular.woff2": "/website/static/media/Satisfy-Regular.78357691be6b1e6c671d.woff2",
+    "static/media/closeIcon.svg": "/website/static/media/closeIcon.692dfa8f59a8bd5c783b28f03b51f1c0.svg",
     "index.html": "/website/index.html",
-    "main.073c9b0a.css.map": "/website/static/css/main.073c9b0a.css.map",
-    "main.8edeb19a.js.map": "/website/static/js/main.8edeb19a.js.map",
+    "main.4bead3bb.css.map": "/website/static/css/main.4bead3bb.css.map",
+    "main.8884cbfd.js.map": "/website/static/js/main.8884cbfd.js.map",
     "787.ed3a2601.chunk.js.map": "/website/static/js/787.ed3a2601.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.8edeb19a.js"
+    "static/css/main.4bead3bb.css",
+    "static/js/main.8884cbfd.js"
   ]
 }
