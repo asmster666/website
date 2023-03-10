@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.4bead3bb.css",
-    "main.js": "/website/static/js/main.8884cbfd.js",
+    "main.css": "/website/static/css/main.59cd1dec.css",
+    "main.js": "/website/static/js/main.457674fe.js",
     "static/js/787.ed3a2601.chunk.js": "/website/static/js/787.ed3a2601.chunk.js",
-    "static/media/background.jpg": "/website/static/media/background.4c3e87f4b2643595bc1c.jpg",
+    "static/media/about_me_rus.mp4": "/website/static/media/about_me_rus.cf1938ec254008c6b33e.mp4",
+    "static/media/about_me_eng.mp4": "/website/static/media/about_me_eng.3ba95b7cde16112243b0.mp4",
     "static/media/BarlowSemiCondensed-BoldItalic.eot": "/website/static/media/BarlowSemiCondensed-BoldItalic.478a753177c06e712c5a.eot",
     "static/media/BarlowSemiCondensed-SemiBoldItalic.eot": "/website/static/media/BarlowSemiCondensed-SemiBoldItalic.318c440184517f04107d.eot",
     "static/media/BarlowSemiCondensed-BoldItalic.ttf": "/website/static/media/BarlowSemiCondensed-BoldItalic.5f3e3b27f2dfca2ad279.ttf",
     "static/media/BarlowSemiCondensed-SemiBoldItalic.ttf": "/website/static/media/BarlowSemiCondensed-SemiBoldItalic.93640c6f79f6bd6ce3e2.ttf",
     "static/media/GreatVibes-Regular.eot": "/website/static/media/GreatVibes-Regular.b104b5375e1745c00212.eot",
     "static/media/GreatVibes-Regular.ttf": "/website/static/media/GreatVibes-Regular.57097753dd55dcf2137b.ttf",
+    "static/media/seo_website2.jpg": "/website/static/media/seo_website2.adb963a2dddd0ba05aa4.jpg",
     "static/media/BarlowSemiCondensed-BoldItalic.woff": "/website/static/media/BarlowSemiCondensed-BoldItalic.a55bff3117327ae418ac.woff",
     "static/media/BarlowSemiCondensed-SemiBoldItalic.woff": "/website/static/media/BarlowSemiCondensed-SemiBoldItalic.1946bc1032bcd34977b4.woff",
     "static/media/Satisfy-Regular.eot": "/website/static/media/Satisfy-Regular.8ee9f5f13c70dc6a1e77.eot",
@@ -20,14 +22,13 @@
     "static/media/GreatVibes-Regular.woff2": "/website/static/media/GreatVibes-Regular.c71c8314428cf12bc313.woff2",
     "static/media/Satisfy-Regular.woff": "/website/static/media/Satisfy-Regular.15553efb0930e0dbab89.woff",
     "static/media/Satisfy-Regular.woff2": "/website/static/media/Satisfy-Regular.78357691be6b1e6c671d.woff2",
-    "static/media/closeIcon.svg": "/website/static/media/closeIcon.692dfa8f59a8bd5c783b28f03b51f1c0.svg",
     "index.html": "/website/index.html",
-    "main.4bead3bb.css.map": "/website/static/css/main.4bead3bb.css.map",
-    "main.8884cbfd.js.map": "/website/static/js/main.8884cbfd.js.map",
+    "main.59cd1dec.css.map": "/website/static/css/main.59cd1dec.css.map",
+    "main.457674fe.js.map": "/website/static/js/main.457674fe.js.map",
     "787.ed3a2601.chunk.js.map": "/website/static/js/787.ed3a2601.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bead3bb.css",
-    "static/js/main.8884cbfd.js"
+    "static/css/main.59cd1dec.css",
+    "static/js/main.457674fe.js"
   ]
 }
