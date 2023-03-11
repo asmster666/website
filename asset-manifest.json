@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.7a980101.css",
-    "main.js": "/website/static/js/main.f0a72eca.js",
+    "main.css": "/website/static/css/main.842ff3cc.css",
+    "main.js": "/website/static/js/main.24a2c2b5.js",
     "static/js/787.ed3a2601.chunk.js": "/website/static/js/787.ed3a2601.chunk.js",
     "static/media/about_me_rus.mp4": "/website/static/media/about_me_rus.cf1938ec254008c6b33e.mp4",
     "static/media/about_me_eng.mp4": "/website/static/media/about_me_eng.3ba95b7cde16112243b0.mp4",
@@ -13,6 +13,8 @@
     "static/media/BarlowSemiCondensed-SemiBoldItalic.ttf": "/website/static/media/BarlowSemiCondensed-SemiBoldItalic.93640c6f79f6bd6ce3e2.ttf",
     "static/media/GreatVibes-Regular.eot": "/website/static/media/GreatVibes-Regular.b104b5375e1745c00212.eot",
     "static/media/GreatVibes-Regular.ttf": "/website/static/media/GreatVibes-Regular.57097753dd55dcf2137b.ttf",
+    "static/media/MarckScript-Regular.eot": "/website/static/media/MarckScript-Regular.76f8f9cfa723fa9fa760.eot",
+    "static/media/MarckScript-Regular.ttf": "/website/static/media/MarckScript-Regular.ca1ec94b04d3ab021327.ttf",
     "static/media/BarlowSemiCondensed-BoldItalic.woff": "/website/static/media/BarlowSemiCondensed-BoldItalic.a55bff3117327ae418ac.woff",
     "static/media/BarlowSemiCondensed-SemiBoldItalic.woff": "/website/static/media/BarlowSemiCondensed-SemiBoldItalic.1946bc1032bcd34977b4.woff",
     "static/media/Satisfy-Regular.eot": "/website/static/media/Satisfy-Regular.8ee9f5f13c70dc6a1e77.eot",
@@ -20,16 +22,18 @@
     "static/media/BarlowSemiCondensed-BoldItalic.woff2": "/website/static/media/BarlowSemiCondensed-BoldItalic.46c37da44fb5f663d822.woff2",
     "static/media/BarlowSemiCondensed-SemiBoldItalic.woff2": "/website/static/media/BarlowSemiCondensed-SemiBoldItalic.9ae2fdc67b55e8d25761.woff2",
     "static/media/GreatVibes-Regular.woff": "/website/static/media/GreatVibes-Regular.830aac1a98ae6b638590.woff",
+    "static/media/MarckScript-Regular.woff": "/website/static/media/MarckScript-Regular.3b84e30dd29d6e083705.woff",
     "static/media/GreatVibes-Regular.woff2": "/website/static/media/GreatVibes-Regular.c71c8314428cf12bc313.woff2",
     "static/media/Satisfy-Regular.woff": "/website/static/media/Satisfy-Regular.15553efb0930e0dbab89.woff",
+    "static/media/MarckScript-Regular.woff2": "/website/static/media/MarckScript-Regular.e337e54a81f5c230584c.woff2",
     "static/media/Satisfy-Regular.woff2": "/website/static/media/Satisfy-Regular.78357691be6b1e6c671d.woff2",
     "index.html": "/website/index.html",
-    "main.7a980101.css.map": "/website/static/css/main.7a980101.css.map",
-    "main.f0a72eca.js.map": "/website/static/js/main.f0a72eca.js.map",
+    "main.842ff3cc.css.map": "/website/static/css/main.842ff3cc.css.map",
+    "main.24a2c2b5.js.map": "/website/static/js/main.24a2c2b5.js.map",
     "787.ed3a2601.chunk.js.map": "/website/static/js/787.ed3a2601.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a980101.css",
-    "static/js/main.f0a72eca.js"
+    "static/css/main.842ff3cc.css",
+    "static/js/main.24a2c2b5.js"
   ]
 }
