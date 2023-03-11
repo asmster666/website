@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.37c86a8e.css",
-    "main.js": "/website/static/js/main.457674fe.js",
+    "main.css": "/website/static/css/main.66d48890.css",
+    "main.js": "/website/static/js/main.c339eac4.js",
     "static/js/787.ed3a2601.chunk.js": "/website/static/js/787.ed3a2601.chunk.js",
     "static/media/about_me_rus.mp4": "/website/static/media/about_me_rus.cf1938ec254008c6b33e.mp4",
     "static/media/about_me_eng.mp4": "/website/static/media/about_me_eng.3ba95b7cde16112243b0.mp4",
-    "static/media/intro_pic3.jpg": "/website/static/media/intro_pic3.0da86a9c6cb82d51e84e.jpg",
+    "static/media/background4_22.jpg": "/website/static/media/background4_22.1951c85cd188ac0b5dea.jpg",
+    "static/media/me.png": "/website/static/media/me.034ebfd3988362cf0545.png",
     "static/media/BarlowSemiCondensed-BoldItalic.eot": "/website/static/media/BarlowSemiCondensed-BoldItalic.478a753177c06e712c5a.eot",
     "static/media/BarlowSemiCondensed-SemiBoldItalic.eot": "/website/static/media/BarlowSemiCondensed-SemiBoldItalic.318c440184517f04107d.eot",
     "static/media/BarlowSemiCondensed-BoldItalic.ttf": "/website/static/media/BarlowSemiCondensed-BoldItalic.5f3e3b27f2dfca2ad279.ttf",
@@ -23,12 +24,12 @@
     "static/media/Satisfy-Regular.woff": "/website/static/media/Satisfy-Regular.15553efb0930e0dbab89.woff",
     "static/media/Satisfy-Regular.woff2": "/website/static/media/Satisfy-Regular.78357691be6b1e6c671d.woff2",
     "index.html": "/website/index.html",
-    "main.37c86a8e.css.map": "/website/static/css/main.37c86a8e.css.map",
-    "main.457674fe.js.map": "/website/static/js/main.457674fe.js.map",
+    "main.66d48890.css.map": "/website/static/css/main.66d48890.css.map",
+    "main.c339eac4.js.map": "/website/static/js/main.c339eac4.js.map",
     "787.ed3a2601.chunk.js.map": "/website/static/js/787.ed3a2601.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37c86a8e.css",
-    "static/js/main.457674fe.js"
+    "static/css/main.66d48890.css",
+    "static/js/main.c339eac4.js"
   ]
 }
