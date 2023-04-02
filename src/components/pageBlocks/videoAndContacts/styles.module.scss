@@ -1,0 +1,272 @@
+@use "../../../styles/variables";
+@import '../../../styles/breakpoints.module.scss';
+
+.video {
+    font-family: 'BarlowSemiCondensed', sans-serif;
+    height: 100vh;
+    display: block;
+    position: relative;
+
+    &__wrap {
+        height: calc(100vh - 30px);
+        display: flex;
+        align-items: center;
+
+        &_carousel {
+            margin: auto;
+
+            h2 {
+                width: 100%;
+                margin: 0 0 20px;
+                text-align: center;
+            }
+        }
+
+        &_video {
+            display: block;
+            position: relative;
+            z-index: 1;
+            margin: 0 auto auto;
+            background: variables.$darkerBlue;
+            border: 1px solid variables.$darkerBlue;
+
+            video {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                z-index: 2;
+            }
+
+            &Btn {
+                position: absolute;
+                z-index: 3;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: variables.$darkerBlue;
+
+                &:hover {
+                    cursor: pointer;
+
+                    > svg {
+                        width: 70px;
+                    }
+                }
+            }
+        }
+
+        &_contact {
+            display: flex;
+            flex-direction: column;
+
+            p {
+                margin: 0 auto 30px;
+                padding: 0;
+
+                a {
+                    text-decoration: none;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+
+                    &:hover {
+                        span {
+                            margin-top: -3px;
+                        }
+                    }
+
+                    span {
+                        color: variables.$darkerBlue;
+                        font-size: 24px;
+                        font-weight: 600;
+                        line-height: 30px;
+                    }
+                }
+            }
+
+            &Github {
+                > span {
+                    font-weight: 400!important;
+                }
+            }
+        }
+
+        @include for-mobile-only {
+            flex-direction: column;
+
+            &_video {
+                width: 100%;
+                height: 450px;
+                margin: 0 auto auto;
+            }
+
+            &_contact {
+                width: 90%;
+                margin: auto;
+
+                p {
+                    margin: 0 0 30px;
+
+                    a {
+                        > svg {
+                            width: 35px;
+                        }
+
+                        > span {
+                            font-size: 18px;
+                            line-height: 22px;
+                        }
+                    }
+                } 
+
+                &Phone {
+                    font-size: 17.5px!important;
+                }
+
+                &Github {
+                    > svg {
+                        margin-left: -7px;
+                    } 
+
+                    > span {
+                        margin-left: 7px;
+                    }
+                }
+            }
+        }
+
+        @include tablet-portrait-up {
+            flex-direction: column;
+
+            &_contact {
+                width: 50%;
+                min-height: 50vh;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    margin: 0 auto 30px;
+
+                    a {
+                        > svg {
+                            width: 40px;
+                        }
+
+                        > span {
+                            font-size: 26px;
+                            line-height: 36px;
+                        }
+                    }
+                }
+            }
+
+            &_video { 
+                min-height: 50vh;
+                width: 90%;
+                margin: 20px auto auto;
+                //height: 300px;
+            }
+        }
+
+        @include for-tablet-portrait-only {
+            height: auto;
+
+            &_carousel {
+                width: 100%;
+                height: 80vh;
+
+                h2 {
+                    margin-top: 20px;
+                }
+            }
+
+            &_contact {
+                margin-top: 60px;
+            }
+        }
+
+        @include laptop-up {
+            flex-direction: row;
+            justify-content: space-between;
+
+            &_contact {
+                width: 50%;
+                align-items: center;
+
+                p {
+                    margin: 0 auto 30px;
+
+                    a {
+                        > svg {
+                            width: 40px;
+                        }
+
+                        > span {
+                            font-size: 24px;
+                            line-height: 30px;
+                        }
+                    }
+                }
+            }
+
+            &_video { 
+                min-height: 50vh;
+                width: 600px;
+                margin: auto;
+                height: 300px;
+            }
+        }
+    }
+
+    @include for-tablet-portrait-only {
+        height: auto;
+    }
+
+    &__btnToTop {
+        display: flex;
+        position: absolute;
+        right: 20px;
+        bottom: 50px;
+        border: 1px solid variables.$mainBlue;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        background-color: transparent;
+
+        > a {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+
+            @include for-mobile-only {
+                transform: rotate(-90deg);
+            }
+        }
+
+        &:hover {
+            background-color: rgb(	9, 34, 51, 0.3);
+            cursor: pointer;
+        }
+    }
+
+    &__footer {
+        height: 30px;
+        background-color: variables.$darkerBlue;
+        color: variables.$creamyWhite ;
+        display: flex;
+        align-items: center;
+
+        p {
+            margin: 0 auto;
+            padding: 0;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+        }
+    }
+}

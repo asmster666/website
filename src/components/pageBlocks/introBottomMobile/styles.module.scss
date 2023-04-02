@@ -1,0 +1,21 @@
+@import '../../../styles/breakpoints.module.scss';
+
+.introBottom {
+    font-family: 'GreatVibes-Regular', sans-serif;
+    position: absolute;
+    z-index: 10;
+    bottom: 20px;
+
+    @include for-mobile-only {
+        display: block;
+        right: 0;
+    }
+
+    @include tablet-portrait-up {
+        right: 7.5%;
+    }
+
+    @include laptop-up {
+        display: none;
+    }
+}

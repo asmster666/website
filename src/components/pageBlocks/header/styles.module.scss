@@ -1,0 +1,78 @@
+@use "../../../styles/variables";
+@import '../../../styles/breakpoints.module.scss';
+
+.header {
+    font-family: 'GreatVibes-Regular', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+
+    &__name {
+        font-size: 72px;
+        font-weight: 400;
+        line-height: 80px;
+        margin: 0;
+        letter-spacing: 3px;
+        color: variables.$mainBlue;
+    }
+
+    &__btnWrap {
+        align-items: center;
+
+        &_burgerMenu {
+            display: block;
+            width: 40px;
+            cursor: pointer;
+        }
+    }
+
+    @include for-mobile-only {
+        width: 100%;
+
+        &__name {
+            text-align: center;
+            margin: 20px auto 0;
+        }
+
+        &__btnWrap {
+            display: none;
+        }
+    }
+
+    @include tablet-portrait-up {
+        width: 85%;
+        margin: auto;
+        padding-top: 20px;
+
+        &__name {
+            width: 50%;
+            text-align: left;
+            margin-left: 0;
+        }
+
+        &__btnWrap {
+            display: none;
+        }
+    }
+
+    @include for-tablet-portrait-only {
+        &__name {
+            margin-right: 0;
+            margin-left: auto;
+        }
+    }
+
+    @include tablet-landscape-up {
+        &__name {
+            width: auto;
+        }
+    }
+
+    @include laptop-up {
+        &__btnWrap {
+            display: flex;
+        }
+    }
+}

@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Satisfy-Regular';
+    src: url('../assets/fonts/Satisfy-Regular.eot');
+    src: local('Satisfy-Regular'), local('Satisfy-Regular'),
+        url('../assets/fonts/Satisfy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Satisfy-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Satisfy-Regular.woff') format('woff'),
+        url('../assets/fonts/Satisfy-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GreatVibes-Regular';
+    src: url('../assets/fonts/GreatVibes-Regular.eot');
+    src: local('GreatVibes-Regular'), local('GreatVibes-Regular'),
+        url('../assets/fonts/GreatVibes-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/GreatVibes-Regular.woff2') format('woff2'),
+        url('../assets/fonts/GreatVibes-Regular.woff') format('woff'),
+        url('../assets/fonts/GreatVibes-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+// @font-face {
+//     font-family: 'BarlowSemiCondensed-Regular';
+//     src: url('../assets/fonts/BarlowSemiCondensed-Regular.eot');
+//     src: local('Inter Regular'), local('BarlowSemiCondensed-Regular'),
+//         url('../assets/fonts/BarlowSemiCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+//         url('../assets/fonts/BarlowSemiCondensed-Regular.woff2') format('woff2'),
+//         url('../assets/fonts/BarlowSemiCondensed-Regular.woff') format('woff'),
+//         url('../assets/fonts/BarlowSemiCondensed-Regular.ttf') format('truetype');
+//     font-weight: 400;
+//     font-style: normal;
+// };
+
+@font-face {
+    font-family: 'BarlowSemiCondensed-BoldItalic';
+    src: url('../assets/fonts/BarlowSemiCondensed-BoldItalic.eot');
+    src: local('Inter Regular'), local('BarlowSemiCondensed-BoldItalic'),
+        url('../assets/fonts/BarlowSemiCondensed-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/BarlowSemiCondensed-BoldItalic.woff2') format('woff2'),
+        url('../assets/fonts/BarlowSemiCondensed-BoldItalic.woff') format('woff'),
+        url('../assets/fonts/BarlowSemiCondensed-BoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+};
+
+@font-face {
+    font-family: 'BarlowSemiCondensed-BoldItalic';
+    src: url('../assets/fonts/BarlowSemiCondensed-SemiBoldItalic.eot');
+    src: local('Inter Regular'), local('BarlowSemiCondensed-SemiBoldItalic'),
+        url('../assets/fonts/BarlowSemiCondensed-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/BarlowSemiCondensed-SemiBoldItalic.woff2') format('woff2'),
+        url('../assets/fonts/BarlowSemiCondensed-SemiBoldItalic.woff') format('woff'),
+        url('../assets/fonts/BarlowSemiCondensed-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MarckScript-Regular';
+    src: url('../assets/fonts/MarckScript-Regular.eot');
+    src: local('Inter Regular'), local('MarckScript-Regular'),
+        url('../assets/fonts/MarckScript-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/MarckScript-Regular.woff2') format('woff2'),
+        url('../assets/fonts/MarckScript-Regular.woff') format('woff'),
+        url('../assets/fonts/MarckScript-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}

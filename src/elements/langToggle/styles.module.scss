@@ -1,0 +1,39 @@
+@use '../../styles/variables';
+@import '../../styles/breakpoints.module.scss';
+
+.toggle {
+    display: flex;
+    align-items: center;
+
+    &__langToggle {
+        display: flex;
+        align-items: center;
+
+        &Name {
+            font-weight: 600;
+            margin: 0 20px;
+            cursor: pointer;
+            color: variables.$mainBlue;
+
+            &:hover {
+                margin-top: -3px;
+            }
+        }
+
+        &Active {
+            cursor: auto;
+            text-decoration: underline;
+            text-underline-offset: 5px;
+
+            &:hover {
+                margin-top: 0;
+            }
+        }
+    }
+
+    @include laptop-up {
+        &__langToggle {
+            margin-right: 20px;
+        }
+    }
+}
