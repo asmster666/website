@@ -41,7 +41,7 @@ const data = {
                 },
                 "mirvracha": {
                     "title": "МирВрача",
-                    "position": "Front-end Разработчик",
+                    "position": "Front-end Разработчик (контракт)",
                     "start": "Август",
                     "end": "Январь",
                     "city": "Москва",
@@ -53,7 +53,7 @@ const data = {
                 },
                 "roomgram": {
                     "title": "Roomgram",
-                    "position": "Front-end Разработчик",
+                    "position": "Front-end Разработчик (контракт)",
                     "start": "Март",
                     "end": "Август",
                     "city": "Москва",
@@ -140,7 +140,7 @@ const data = {
                 },
                 "mirvracha": {
                     "title": "Mirvracha",
-                    "position": "Front-end Developer",
+                    "position": "Front-end Developer (contract)",
                     "start": "August",
                     "end": "January",
                     "city": "Moscow, Russia",
@@ -152,7 +152,7 @@ const data = {
                 },
                 "roomgram": {
                     "title": "Roomgram",
-                    "position": "Front-end Developer",
+                    "position": "Front-end Developer (contract)",
                     "start": "March",
                     "end": "August",
                     "city": "Moscow, Russia",
