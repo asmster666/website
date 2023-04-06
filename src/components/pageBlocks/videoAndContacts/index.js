@@ -8,7 +8,7 @@ import { MailBox, PhoneIcon, Github, UpArrow } from '../../../assets/icons';
 
 import { Carousel } from 'react-responsive-carousel';
 import Img from '../../../assets/images/search_comp2.png';
-import Img2 from '../../../assets/images/search_component.png';
+import Img2 from '../../../assets/images/chrome_extension.png';
 
 
 const VideoAndContacts = () => {
@@ -24,7 +24,7 @@ const VideoAndContacts = () => {
         {
             src: Img2,
             name: 'Chrome extension',
-            link: ''
+            link: 'https://github.com/asmster666/chrome_extension'
         },
         {
             src: '',

@@ -25,7 +25,7 @@ const About = () => {
                     <div>
                         <p>{general.aboutName} <span>{general.fullName}</span></p>
                         <p>{general.aboutNationality} <span>{general.nationality}</span></p>
-                        <p>{general.aboutLocation} <span>{general.location}</span></p>
+                        {/* <p>{general.aboutLocation} <span>{general.location}</span></p> */}
                         <p><span><a href={`mailto:${general.email}`}>{general.email}</a></span></p>
                     </div>
                 </div>
