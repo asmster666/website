@@ -24,11 +24,11 @@ const VideoAndContacts = () => {
         {
             src: Img2,
             name: 'Chrome extension',
-            link: 'https://github.com/asmster666/chrome_extension'
+            link: 'https://asmster666.github.io/chrome_extension/'
         },
         {
             src: '',
-            name: 'Coming soon...',
+            name: 'View more...',
             link: 'https://github.com/asmster666'
         }
     ]
@@ -57,6 +57,7 @@ const VideoAndContacts = () => {
                                         }
                                         <a 
                                             href={slide.link} 
+                                            target={"_blank"}
                                             className={slide.src === '' ? s.video__wrap_carouselSlide_default : ''}
                                         >{slide.name}</a>
                                     </div>

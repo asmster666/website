@@ -1,0 +1,68 @@
+@import '../../styles/breakpoints.module.scss';
+
+.workInfo {
+
+    display: flex;
+    flex-direction: column;
+
+    &__company {
+        font-weight: 600;
+        display: flex;
+
+        > a {
+            margin-left: 10px;
+            position: relative;
+
+            &:hover {
+                > svg {
+                    transform: rotate(15deg);
+                }
+            } 
+        }
+    }
+
+    @include for-mobile-only {
+        margin-top: 20px;
+
+        &__company {
+            font-size: 20px;
+            line-height: 24px;
+            margin: 0;
+            align-items: center;
+
+            > a {
+                > svg {
+                    margin-top: 3px;
+                }
+            }
+
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 24px;
+            margin: 10px 0 0;
+        }
+    }
+
+    @include tablet-landscape-up {
+        justify-content: center;
+        align-items: end;
+
+        &__company {
+            margin: 0 0 10px;
+            font-size: 20px;
+            line-height: 24px;
+
+            > a {
+                > svg {
+                    margin-top: 3px;
+                }
+            }
+        }
+
+        p {
+            margin: 0 0 10px;
+        }
+    }
+}

@@ -1,0 +1,130 @@
+@use "../../../styles/variables";
+@import '../../../styles/breakpoints.module.scss';
+
+.about {
+    font-family: 'BarlowSemiCondensed', sans-serif;
+    width: 100%;
+    gap: 0;
+    z-index: 10;
+    background-color: rgb(123, 154, 184, 0.3);
+    color: variables.$mainBlue;
+
+    &__wrap {
+        display: flex;
+
+        &_jobs {
+            &Mobile {
+            }
+
+            &Desktop {
+                display: flex;
+                flex-direction: column;
+
+                &__content {
+                    display: flex;
+                }
+            }
+        }
+
+        &_skills {
+        }
+    }
+
+    @include for-mobile-only {
+        &__wrap {
+            flex-direction: column;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+
+            &_jobs {
+                &Mobile {
+                    width: calc(100% - 40px);
+                    margin: 0 20px;
+
+                    h2 {
+                        margin: 0 0 20px;
+                        font-size: 25px;
+                        line-height: 30px;
+                    }
+                }
+    
+                &Desktop {
+                    display: none;
+                }
+            }
+    
+            &_skills {
+                display: none;
+            }
+        }
+    }
+
+    @include tablet-portrait-up {
+        height: 100vh;
+    }
+
+    @include for-tablet-portrait-only {}
+
+    @include tablet-landscape-up {
+        &__wrap {
+            flex-direction: row;
+
+            &_skills {
+                width: 33.33%;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                background-color: rgb(123, 154, 184, 0.3);
+            }
+    
+            &_jobs {
+                &Mobile {
+                    display: none;
+                }
+    
+                &Desktop {
+                    width: 66.67%;
+                    height: 100vh;
+
+                    h2 {
+                        margin: 20px 0 20px 30px;
+                        font-size: 26px;
+                        line-height: 32px;
+                    }
+
+                    &__content {
+                        justify-content: space-between;
+                        
+                        &_jobs {
+                            width: 45%;
+
+                            > div {
+                                height: 30vh;
+                                margin: auto;
+                            }
+                        }
+
+                        &_skills {
+                            width: 45%;
+
+                            > ul {
+                                height: 30vh;
+                                width: calc(100% - 50px);
+                                justify-content: center;
+                                margin: auto 30px auto 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @include laptop-up {
+        &__wrap{
+
+        }
+    }
+}

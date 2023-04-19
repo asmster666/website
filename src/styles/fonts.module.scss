@@ -69,3 +69,27 @@
     font-weight: 400;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Sriracha-Regular';
+    src: url('../assets/fonts/Sriracha-Regular.eot');
+    src: local('Inter Regular'), local('Sriracha-Regular'),
+        url('../assets/fonts/Sriracha-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Sriracha-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Sriracha-Regular.woff') format('woff'),
+        url('../assets/fonts/Sriracha-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Caveat-Bold';
+    src: url('../assets/fonts/Caveat-Bold.eot');
+    src: local('Inter Regular'), local('Caveat-Bold'),
+        url('../assets/fonts/Caveat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Caveat-Bold.woff2') format('woff2'),
+        url('../assets/fonts/Caveat-Bold.woff') format('woff'),
+        url('../assets/fonts/Caveat-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}

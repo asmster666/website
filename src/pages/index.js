@@ -1,7 +1,7 @@
 import React, { useState, Suspense, useContext } from 'react';
 import '../styles/main.scss';
 
-import { About, Intro, VideoAndContacts } from '../components/pageBlocks';
+import { Intro, VideoAndContacts, About2 } from '../components/pageBlocks';
 import { BurgerMenu } from '../elements';
 import Loader from '../components/loader';
 
@@ -27,7 +27,7 @@ const Website = () => {
                     lang={lang}
                 />
 
-                <About />
+                <About2 />
 
                 <VideoAndContacts lang={lang} />
 

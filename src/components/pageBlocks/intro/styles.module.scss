@@ -33,7 +33,7 @@
     }
 
     &__description {
-        font-family: 'GreatVibes-Regular', sans-serif;
+        font-family: 'Caveat-Bold', sans-serif;
         display: flex;
         flex-direction: column;
         text-align: right;
@@ -44,7 +44,7 @@
 
         li {
             list-style-type: none;
-            font-weight: 400;
+            font-weight: 600;
             font-size: 50px;
             line-height: 60px;
             letter-spacing: 3px;
@@ -180,7 +180,7 @@
             width: 730px;
 
             > img {
-                width: 100%;
+                width: 85%;
             }
         }
 

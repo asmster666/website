@@ -89,11 +89,11 @@
                 }
             }
 
-            &Github {
-                > span {
-                    font-weight: 400!important;
-                }
-            }
+            // &Github {
+            //     > span {
+            //         font-weight: 400!important;
+            //     }
+            // }
         }
 
         @include for-mobile-only {

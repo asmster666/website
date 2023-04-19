@@ -2,7 +2,7 @@
 @import '../../../styles/breakpoints.module.scss';
 
 .header {
-    font-family: 'GreatVibes-Regular', sans-serif;
+    font-family: 'Caveat-Bold', sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,8 +10,8 @@
     z-index: 5;
 
     &__name {
-        font-size: 72px;
-        font-weight: 400;
+        font-size: 75px;
+        font-weight: 600;
         line-height: 80px;
         margin: 0;
         letter-spacing: 3px;
