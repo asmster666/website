@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.bff89875.css",
-    "main.js": "/website/static/js/main.a84f9f97.js",
+    "main.css": "/website/static/css/main.27e0b47b.css",
+    "main.js": "/website/static/js/main.e82ee2c1.js",
     "static/js/787.71e672d5.chunk.js": "/website/static/js/787.71e672d5.chunk.js",
+    "static/media/me.png": "/website/static/media/me.0c050e7a5c8b15659fe6.png",
     "static/media/background_mobile.jpg": "/website/static/media/background_mobile.7aad956f782c52fd74a1.jpg",
-    "static/media/me.png": "/website/static/media/me.034ebfd3988362cf0545.png",
     "static/media/background4_22.jpg": "/website/static/media/background4_22.6c04197e24cbe68a74b1.jpg",
     "static/media/search_comp2.png": "/website/static/media/search_comp2.ea7b593a1c76719c9701.png",
+    "static/media/Sriracha-Regular.eot": "/website/static/media/Sriracha-Regular.fcd4778bff073ee2bab3.eot",
+    "static/media/Sriracha-Regular.ttf": "/website/static/media/Sriracha-Regular.b9ae301685ca12acf4bf.ttf",
+    "static/media/Caveat-Bold.eot": "/website/static/media/Caveat-Bold.cacef0500ae90ea1c753.eot",
+    "static/media/Caveat-Bold.ttf": "/website/static/media/Caveat-Bold.787ca24633e8d6421002.ttf",
     "static/media/chrome_extension.png": "/website/static/media/chrome_extension.934edc69913236389635.png",
+    "static/media/Sriracha-Regular.woff": "/website/static/media/Sriracha-Regular.510db13f7a2876db9575.woff",
     "static/media/BarlowSemiCondensed-BoldItalic.eot": "/website/static/media/BarlowSemiCondensed-BoldItalic.478a753177c06e712c5a.eot",
     "static/media/BarlowSemiCondensed-SemiBoldItalic.eot": "/website/static/media/BarlowSemiCondensed-SemiBoldItalic.318c440184517f04107d.eot",
+    "static/media/Caveat-Bold.woff": "/website/static/media/Caveat-Bold.d8977a2b6fa5379fb354.woff",
     "static/media/BarlowSemiCondensed-BoldItalic.ttf": "/website/static/media/BarlowSemiCondensed-BoldItalic.5f3e3b27f2dfca2ad279.ttf",
     "static/media/BarlowSemiCondensed-SemiBoldItalic.ttf": "/website/static/media/BarlowSemiCondensed-SemiBoldItalic.93640c6f79f6bd6ce3e2.ttf",
+    "static/media/Caveat-Bold.woff2": "/website/static/media/Caveat-Bold.02aa0ec49bd4497c651f.woff2",
     "static/media/GreatVibes-Regular.eot": "/website/static/media/GreatVibes-Regular.b104b5375e1745c00212.eot",
     "static/media/GreatVibes-Regular.ttf": "/website/static/media/GreatVibes-Regular.57097753dd55dcf2137b.ttf",
+    "static/media/Sriracha-Regular.woff2": "/website/static/media/Sriracha-Regular.39c877a3176e13443378.woff2",
     "static/media/MarckScript-Regular.eot": "/website/static/media/MarckScript-Regular.76f8f9cfa723fa9fa760.eot",
     "static/media/MarckScript-Regular.ttf": "/website/static/media/MarckScript-Regular.ca1ec94b04d3ab021327.ttf",
     "static/media/BarlowSemiCondensed-BoldItalic.woff": "/website/static/media/BarlowSemiCondensed-BoldItalic.a55bff3117327ae418ac.woff",
@@ -30,12 +38,12 @@
     "static/media/Satisfy-Regular.woff2": "/website/static/media/Satisfy-Regular.78357691be6b1e6c671d.woff2",
     "static/media/logo.svg": "/website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/website/index.html",
-    "main.bff89875.css.map": "/website/static/css/main.bff89875.css.map",
-    "main.a84f9f97.js.map": "/website/static/js/main.a84f9f97.js.map",
+    "main.27e0b47b.css.map": "/website/static/css/main.27e0b47b.css.map",
+    "main.e82ee2c1.js.map": "/website/static/js/main.e82ee2c1.js.map",
     "787.71e672d5.chunk.js.map": "/website/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bff89875.css",
-    "static/js/main.a84f9f97.js"
+    "static/css/main.27e0b47b.css",
+    "static/js/main.e82ee2c1.js"
   ]
 }
