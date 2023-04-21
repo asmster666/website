@@ -68,9 +68,9 @@ const VideoAndContacts = () => {
                 </div>
 
                 <div className={s.video__wrap_contact}>
-                    <p><a href={'tel:6281213989947'} onClick={handleRedirect}>
+                    <p><a href={'tel:0493645942'} onClick={handleRedirect}>
                         <PhoneIcon id={'phoneIcon'} />
-                        <span className={s.video__wrap_contactPhone}>+62 812 1398 9947</span>
+                        <span className={s.video__wrap_contactPhone}>0493 645 942</span>
                     </a></p>
                     <p><a href={'mailto:masha.mashianova1@gmail.com'} onClick={handleRedirect}>
                         <MailBox id={'mailIcon'} />
